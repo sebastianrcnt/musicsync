@@ -73,7 +73,7 @@ const MessageHandlers = {
         client.send(JSON.stringify(payload));
       }
     });
-  }, 
+  },
 };
 
 server.listen(3000, () => {
